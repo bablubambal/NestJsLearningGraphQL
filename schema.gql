@@ -1,0 +1,16 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Post {
+  userId: Int!
+  id: Int!
+  title: String!
+  body: String!
+}
+
+type Query {
+  hello: String!
+  getPosts: [Post!]!
+  getPost: Post!
+}
